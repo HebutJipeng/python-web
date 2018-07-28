@@ -19,5 +19,5 @@ from . import view
 
 urlpatterns = [
     url(r'^graph/', view.graph),
-    url(r'^$', view.index),
+    url(r'^index/', view.index),
 ]
