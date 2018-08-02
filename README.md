@@ -31,4 +31,4 @@ python 在web方向的应用， 也许不只是web 也许吧。
       lines = inf.readlines()
   ```
 
-    - 贴一下解决方案的链接[https://stackoverflow.com/questions/35028683/python3-unicodedecodeerror-with-readlines-method/41652865](https://stackoverflow.com/questions/35028683/python3-unicodedecodeerror-with-readlines-method/41652865)
+    贴一下解决方案的链接 (https://stackoverflow.com/questions/35028683/python3-unicodedecodeerror-with-readlines-method/41652865)
