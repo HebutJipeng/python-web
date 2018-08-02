@@ -21,7 +21,7 @@ python 在web方向的应用， 也许不只是web 也许吧。
     sys.setdefaultencoding('utf-8')
   ```
 
-    ```python
+ ```python
     # python3 的解决方法, 但是这种方式我并没有生效
     import importlib
     importlib.reload(sys)
