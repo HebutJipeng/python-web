@@ -82,12 +82,61 @@
           </el-form>
           <el-row>
             <el-col :span="22">
-              <el-card class="box-card">
-                123
+              <el-card class="box-card" style="padding: 10px 0;">
+                <el-form ref="form" :model="form" label-width="115px" >
+                  <el-row>
+                    <el-col :span="10">
+                      <el-form-item label="命名实体:  ">
+                        <el-input v-model="form.name"  :disabled="true"></el-input>
+                      </el-form-item>
+                    </el-col>
+                    <el-col :span="10" :offset="2">
+                      <el-form-item label="所匹配出的实体:">
+                        <el-input v-model="form.name" :disabled="true"></el-input>
+                      </el-form-item>
+                    </el-col>
+                  </el-row>
+                  <el-row>
+                    <el-col :span="10">
+                      <el-form-item label="查询语句:  ">
+                        <el-input v-model="form.name"  :disabled="true"></el-input>
+                      </el-form-item>
+                    </el-col>
+                  </el-row>
+                  <el-row>
+                    <el-col :span="10">
+                      <el-form-item label="答案:  ">
+                        <el-input v-model="form.name"  :disabled="true"></el-input>
+                      </el-form-item>
+                    </el-col>
+                  </el-row>
+                  <el-row>
+                    <el-col :span="10">
+                      <el-form-item label="反馈:  ">
+                        <span style="margin-right: 10px">命名实体是否正确</span>
+                        <el-radio-group v-model="form.resource">
+                          <el-radio label="是"></el-radio>
+                          <el-radio label="否"></el-radio>
+                        </el-radio-group>
+                        <br>
+                        <span style="margin-right: 10px">查询语句是否正确</span>
+                        <el-radio-group v-model="form.resource">
+                          <el-radio label="是"></el-radio>
+                          <el-radio label="否"></el-radio>
+                        </el-radio-group>
+                        <br>
+                        <span style="margin-right: 10px">答案是否正确</span>
+                        <el-radio-group v-model="form.resource">
+                          <el-radio label="是"></el-radio>
+                          <el-radio label="否"></el-radio>
+                        </el-radio-group>
+                      </el-form-item>
+                    </el-col>
+                  </el-row>
+                </el-form>
               </el-card>
             </el-col>
           </el-row>
-
         </el-main>
       </el-container>
     </el-container>
@@ -105,7 +154,9 @@
           visible: false,
           formInline: {
             user: '',
-            region: ''
+          },
+          form: {
+            name: ''
           }
         }
       },
