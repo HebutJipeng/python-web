@@ -1,0 +1,58 @@
+{
+    "isOk": true,
+    "datas": [{
+            "type": "e-header",
+            "data": {
+                "title": "Change starts with your first sweat.",
+                "picture": null,
+                "sub_title": null,
+                "description": null,
+                "style": null,
+                "btn": null
+            }
+        },
+        {
+            "type": "e-cardbig",
+            "data": {
+                "title": "Yesterday you said tomorrow",
+                "picture": "https://static1.keepcdns.com/2018/09/25/1537870638253_1136x420.png",
+                "sub_title": null,
+                "description": "Great things always have a small beginning. So does fitness. No matter your goal is to lose weight, gain muscles or stay active, we have prepared the right workout for you. The best time to start your change? It’s always NOW.",
+                "style": null,
+                "btn": {
+                    "cname": "fill",
+                    "url": "http://show.keepkeep.com",
+                    "text": "Get Started",
+                    "style": null
+                }
+            }
+        },
+        {
+            "type": "e-cardbig",
+            "data": {
+                "title": "Don't worry. We got your back",
+                "picture": "https://static1.keepcdns.com/2018/09/25/1537870540794_1136x320.png",
+                "sub_title": null,
+                "description": "In Keep, every exercise is instructed by professional fitness coach along with voice guide. Besides, every workout is labeled from K1 to K4 which indicates the difficulty level from beginner to the advanced. You can easily find the workout matching your experience. Only with the right workout to start, you will not get injured and therefore go further on fitness path. ",
+                "style": null,
+                "btn": {
+                    "cname": "fill",
+                    "url": "http://show.keepkeep.com",
+                    "text": "Check it out",
+                    "style": null
+                }
+            }
+        },
+        {
+            "type": "e-footer",
+            "data": {
+                "title": null,
+                "picture": null,
+                "sub_title": null,
+                "description": null,
+                "btn": null,
+                "style": null
+            }
+        }
+    ]
+}

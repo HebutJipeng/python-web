@@ -1,0 +1,80 @@
+{
+    "isOk": true,
+    "datas": [{
+            "type": "e-header",
+            "data": {
+                "title": "Welcome to Keep",
+                "picture": "https://static1.keepcdns.com/2018/09/25/1537870731766_1136x420.png",
+                "sub_title": null,
+                "description": "Hello,Welcome to Keep!<br/><br/> The most professional and easy-to-use fitness trainer that has helped over 5,000,000 keepers become fit and active.<br/><br/> By signing up, you’ve taken the first step towards a healthier life. We’ll provide everything we can to help and support you to achieve your fitness goal.<br/><br/> What you could enjoy here：",
+                "style": null,
+                "btn": null
+            }
+        },
+        {
+            "type": "e-cardbig",
+            "data": {
+                "title": null,
+                "picture": null,
+                "sample_url": "/images/edm/img_sample1.png",
+                "sub_title": null,
+                "description": "100+ workouts will help transform your body",
+                "style": null,
+                "btn": null
+            }
+        },
+        {
+            "type": "e-cardbig",
+            "data": {
+                "title": null,
+                "picture": null,
+                "sample_url": "/images/edm/img_sample2.png",
+                "sub_title": null,
+                "description": "Experts' video guidance will give you all the info you need to succeed and progress.",
+                "style": null,
+                "btn": null
+            }
+        },
+        {
+            "type": "e-cardbig",
+            "data": {
+                "title": null,
+                "picture": null,
+                "sample_url": "/images/edm/img_sample2.png",
+                "sub_title": null,
+                "description": "Personalized training plans 100% tailored to you based on your own routine and goals.",
+                "style": null,
+                "btn": null
+            }
+        },
+        {
+            "type": "e-cardbig",
+            "data": {
+                "title": "Keep Training, Keep Fit!",
+                "picture": null,
+                "sample_url": null,
+                "sub_title": null,
+                "description": null,
+                "style": null,
+                "btn": {
+                    "cname": "fill",
+                    "url": "http://show.keepkeep.com/training",
+                    "text": "Get Started",
+                    "style": null
+                }
+            }
+        },
+        {
+            "type": "e-footer",
+            "data": {
+                "title": null,
+                "picture": null,
+                "sample_url": null,
+                "sub_title": null,
+                "description": null,
+                "btn": null,
+                "style": null
+            }
+        }
+    ]
+}

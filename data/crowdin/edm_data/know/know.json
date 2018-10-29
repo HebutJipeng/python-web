@@ -1,0 +1,63 @@
+{
+    "isOk": true,
+    "datas": [{
+            "type": "e-header",
+            "data": {
+                "title": "Did you know you could get these trophies n Keep?",
+                "picture": "https://static1.keepcdns.com/2018/09/25/1537870731766_1136x420.png",
+                "sub_title": null,
+                "description": "Welcome to the Keep world. Here are various trophies prepared for you. We just want you to know, every effort counts. <br/><br/> Check out all these silverwares, How many have you unlocked?",
+                "style": null,
+                "btn": null
+            }
+        },
+        {
+            "type": "e-cardbig",
+            "data": {
+                "title": "Self-discipline",
+                "picture": null,
+                "sample_url": "/images/edm/img_sample1.png",
+                "sub_title": null,
+                "description": "Self-discipline trophies record every small progress you make. Fighting with inertia helps you become a better you. Guess which two can be acquired only through Keep Yoga, a new app from recently released by our team. You can use your Keep Trainer account to log in, and all data will be synced.",
+                "style": null,
+                "btn": null
+            }
+        },
+        {
+            "type": "e-cardbig",
+            "data": {
+                "title": "Walk the talk",
+                "picture": null,
+                "sample_url": "/images/edm/img_sample2.png",
+                "sub_title": null,
+                "description": "Unlock these trophies by reaching corresponding steps in a day.",
+                "style": null,
+                "btn": null
+            }
+        },
+        {
+            "type": "e-cardbig",
+            "data": {
+                "title": "Train like an animal",
+                "picture": null,
+                "sample_url": "/images/edm/img_sample2.png",
+                "sub_title": null,
+                "description": "Cat, bird, dog, sheep, cattle, swan…… <br/> Have you tried to complete exercises inspired from animals. Harvest the animal spirit with specific trainings.",
+                "style": null,
+                "btn": null
+            }
+        },
+        {
+            "type": "e-footer",
+            "data": {
+                "title": null,
+                "picture": null,
+                "sample_url": null,
+                "sub_title": null,
+                "description": null,
+                "btn": null,
+                "style": null
+            }
+        }
+    ]
+}

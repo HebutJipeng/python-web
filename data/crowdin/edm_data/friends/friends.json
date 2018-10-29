@@ -1,0 +1,58 @@
+{
+    "isOk": true,
+    "datas": [{
+            "type": "e-header",
+            "data": {
+                "title": "Your firends are on Keep",
+                "picture": null,
+                "sub_title": "Add friends to follow their adventures and get inspired by their workouts",
+                "description": null,
+                "style": null,
+                "btn": null
+            }
+        },
+        {
+            "type": "e-card",
+            "data": {
+                "title": "{{name}}",
+                "picture": "https://static1.keepcdns.com/2018/09/25/1537870638253_1136x420.png",
+                "sub_title": "Member since {{date}}",
+                "description": "Member since {{date}}",
+                "style": null,
+                "btn": {
+                    "cname": "fill",
+                    "url": "http://show.keepkeep.com",
+                    "text": "Add Friend",
+                    "style": null
+                }
+            }
+        },
+        {
+            "type": "e-btn",
+            "data": {
+                "title": null,
+                "picture": null,
+                "sub_title": null,
+                "description": null,
+                "style": null,
+                "btn": {
+                    "cname": "line",
+                    "url": "http://show.keepkeep.com",
+                    "text": "Find More Friends",
+                    "style": "margin-top:2rem;margin-bottom:5.2rem;"
+                }
+            }
+        },
+        {
+            "type": "e-footer",
+            "data": {
+                "title": null,
+                "picture": null,
+                "sub_title": null,
+                "description": null,
+                "btn": null,
+                "style": null
+            }
+        }
+    ]
+}
