@@ -3,7 +3,7 @@ import json
 import time
 import random
 
-TIME = 100
+TIME = 523
 CURRENT = 0
 
 def generate_random_str(randomlength=8):
