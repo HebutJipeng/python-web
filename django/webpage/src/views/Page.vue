@@ -1,10 +1,11 @@
 <template>
   <div class="page">
     <el-container>
-      <el-header>
+      <el-header style="display: flex;justify-content: space-between;">
         <router-link to="/">
           <h1><i class="el-icon-date"></i> 问答系统</h1>
         </router-link>
+        <span class="nav">当前模型: {{ model }}</span>
       </el-header>
       <el-container>
         <el-aside width="200px">
@@ -19,7 +20,9 @@
               <router-link to="/page/graph">
                 <el-menu-item index="1-3">答案搜索</el-menu-item>
               </router-link>
-
+              <router-link to="/page/graph">
+                <el-menu-item index="1-4">实体搜索</el-menu-item>
+              </router-link>
             </el-menu>
           </el-aside>
         </el-aside>
@@ -38,5 +41,15 @@
 
 export default {
   name: 'home',
+  data: function() {
+    return {
+      model: ''
+    }
+  },
+  mounted() {
+    if (sessionStorage.model) {
+      this.model = sessionStorage.model
+    }
+  },
 }
 </script>

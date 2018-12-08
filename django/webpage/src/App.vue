@@ -23,6 +23,10 @@ export default {
     margin: 0;
   }
 
+  .main-wrapper {
+    min-height: 550px;
+  }
+
   h1 {
     margin: 0;
   }

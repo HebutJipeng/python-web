@@ -1,0 +1,67 @@
+8	who is governor of _ 2011	m.05kkh	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.governmental_jurisdiction.governing_officials ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.basic_title ns:m.0fkvn . }
+97	who fought in the _ 1991	m.018w0j	SELECT DISTINCT ?x WHERE { ns:<e1> ns:military.military_conflict.combatants ?y . ?y ns:military.military_combatant_group.combatants ?x . }
+99	what team did _ play for in 2011	m.02d9k	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+194	who did the _ _ in 2011	m.06rpd m.05sys3j	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.professional_sports_team.draft_picks ?y . ?y ns:sports.sports_league_draft_pick.player ?x . ?y ns:sports.sports_league_draft_pick.draft ns:<e2> . }
+252	who doe _ play for 2012	m.035gcb	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+310	what team is _ on 2010	m.0d81yf	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+327	who doe _ play for 2011	m.04m4p5	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+335	what happen in _ in the 90s	m.0166b	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.location.events ?x . }
+375	what team did _ play for in 2003	m.0hhqw	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+376	where doe _ live 2011	m.0dzf_	SELECT DISTINCT ?x WHERE { ns:<e1> ns:people.person.places_lived ?y . ?y ns:people.place_lived.location ?x . }
+412	who are the senat of _ 2013	m.07z1m	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.political_district.representatives ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.governmental_body ns:m.07t58 . }
+450	what are the 7 countri that are part of _	m.01tzh	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.location.contains ?x . ?x ns:common.topic.notable_types ns:m.01mp . }
+479	who doe _ play for in 2012	m.076ltd	SELECT DISTINCT ?x WHERE { ns:<e1> ns:base.schemastaging.athlete_extra.salary ?y . ?y ns:base.schemastaging.athlete_salary.team ?x . }
+518	who is the presid of _ in 2012	m.01p8s	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.governmental_jurisdiction.governing_officials ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.basic_title ns:m.060c4 . }
+532	who are the senat of _ 2012	m.03gh4	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.political_district.representatives ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.governmental_body ns:m.07t58 . }
+540	who is the presid of the _ 2012	m.0_6t_z8	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.governmental_jurisdiction.governing_officials ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.basic_title ns:m.060bp . }
+556	what team is _ on 2011	m.05cb70	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+562	who won _ 1976	m.02_p0	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_award_type.winners ?y . ?y ns:sports.sports_award.award_winner ?x . ?y ns:sports.sports_award.season ns:<e1> . }
+579	what is the name of the speaker of the _ now 2011	m.0cgqx	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.government_office_or_title.office_holders ?y . ?y ns:government.government_position_held.office_holder ?x . }
+597	who was presid in 1988 in the _	m.060d2	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.government_office_or_title.office_holders ?y . ?y ns:government.government_position_held.office_holder ?x . }
+598	who own _ 2012	m.045c7b	SELECT DISTINCT ?x WHERE { ns:<e1> ns:organization.organization.leadership ?y . ?y ns:organization.leadership.person ?x . }
+604	who is the governor of _ 2009	m.04f_xd8	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.government_office_or_title.office_holders ?y . ?y ns:government.government_position_held.office_holder ?x . }
+665	what team doe _ play for 2011	m.02xt6q	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+668	who are the _ senat 2013	m.07z1m	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.political_district.representatives ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.governmental_body ns:m.07t58 . }
+675	what provinc is _ in ( 7 letter )	m.0h7h6	SELECT DISTINCT ?x WHERE { ns:<e1> ns:base.biblioness.bibs_location.state ?x . }
+675	what provinc is _ in ( 7 letter )	m.0h7h6	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.location.containedby ?x . ?x ns:common.topic.notable_types ns:m.01nm . }
+680	who will coach _ in 2013	m.01y3c	SELECT DISTINCT ?x WHERE { ns:<e1> ns:american_football.football_team.current_head_coach ?x . }
+705	what 5 countri border _	m.06mzp	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.location.adjoin_s ?y . ?y ns:location.adjoining_relationship.adjoins ?x . ?x ns:common.topic.notable_types ns:m.01mp . }
+713	who is number 22 for the _	m.02896	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.roster ?y . ?y ns:sports.sports_team_roster.player ?x . ?y ns:sports.sports_team_roster.number ?sk0 . FILTER (str(?sk0) = "22") }
+733	what team did _ play for in 2010	m.06qjgc	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+759	who did _ play for in 2008	m.02px3wt	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+798	who was the prime minist of _ in 1999	m.02cd6_	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.government_office_or_title.office_holders ?y . ?y ns:government.government_position_held.office_holder ?x . }
+832	who did _ play for in 2010	m.02xt6q	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+853	what are the name of _ 3 children	m.09889g	SELECT DISTINCT ?x WHERE { ns:<e1> ns:people.person.children ?x . }
+854	who is the current governor of _ 2010	m.0vmt	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.governmental_jurisdiction.governing_officials ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.basic_title ns:m.0fkvn . }
+883	what team doe _ play for in 2012	m.02d9k	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+909	who doe _ play for now 2011	m.02lfw5	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+930	who is the governor of _ 2011	m.07z1m	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.governmental_jurisdiction.governing_officials ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.basic_title ns:m.0fkvn . }
+948	what club doe _ play for in 2010	m.02xt6q	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+961	what is the name of the nation anthem of _ ( 2 word )	m.0d060g	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.national_anthem ?y . ?y ns:government.national_anthem_of_a_country.anthem ?x . }
+997	where is _ master 2012	m.0hrf6ww	SELECT DISTINCT ?x WHERE { ns:<e1> ns:time.event.locations ?x . }
+999	who did _ play for in 2010	m.027ddp	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+1011	where was the _ 1773	m.0ccd96	SELECT DISTINCT ?x WHERE { ns:<e1> ns:time.event.locations ?x . }
+1024	what to do in _ in 1 day	m.05qtj	SELECT DISTINCT ?x WHERE { ns:<e1> ns:travel.travel_destination.tourist_attractions ?x . }
+1041	what kind of govern doe _ have after 1979	m.03shp	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.form_of_government ?x . }
+1045	who won _ in 2002	m.012dbw	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_award_type.winners ?y . ?y ns:sports.sports_award.award_winner ?x . }
+1071	what team doe _ play for 2013	m.09k72lh	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+1098	what type of govern doe _ have 2011	m.03rjj	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.form_of_government ?x . }
+1112	who is the leader of _ 2011	m.04gqr	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.governmental_jurisdiction.governing_officials ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.basic_title ns:m.09d6p2 . }
+1120	who was _ prime minist in 1993	m.060m4	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.government_office_or_title.office_holders ?y . ?y ns:government.government_position_held.office_holder ?x . }
+1159	who own _ 2011	m.01_bp	SELECT DISTINCT ?x WHERE { ns:<e1> ns:organization.organization.parent ?y . ?y ns:organization.organization_relationship.parent ?x . }
+1163	who is run for vice presid with _ 2012	m.02mjmr	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.us_president.vice_president ?x . }
+1175	who are the 9 justic of the _ 2011	m.07sz1	SELECT DISTINCT ?x WHERE { ns:<e1> ns:law.court.judges ?y . ?y ns:law.judicial_tenure.judge ?x . }
+1184	where doe _ live 2012	m.05mnc3	SELECT DISTINCT ?x WHERE { ns:<e1> ns:people.person.places_lived ?y . ?y ns:people.place_lived.location ?x . }
+1223	who is _ marri to 2012	m.036hf4	SELECT DISTINCT ?x WHERE { ns:<e1> ns:people.person.spouse_s ?y . ?y ns:people.marriage.spouse ?x . ?y ns:people.marriage.type_of_union ns:m.04ztj . }
+1275	what honor did _ receiv in 1971	m.0ldd	SELECT DISTINCT ?x WHERE { ns:<e1> ns:award.award_winner.awards_won ?y . ?y ns:award.award_honor.award ?x . }
+1278	who won _ 2012	m.08q5ws	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_award_type.winners ?y . ?y ns:sports.sports_award.award_winner ?x . ?y ns:sports.sports_award.season ns:<e1> . }
+1350	who is the governor of _ 2009	m.0vmt	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.governmental_jurisdiction.governing_officials ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.basic_title ns:m.0fkvn . }
+1409	what 3 state border _	m.02xry	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.location.adjoin_s ?y . ?y ns:location.adjoining_relationship.adjoins ?x . ?x ns:common.topic.notable_types ns:m.0kpys4 . }
+1420	who is the prime minist of _ 2011	m.06mkj	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.governmental_jurisdiction.governing_officials ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.basic_title ns:m.060bp . }
+1427	who doe _ play for in 2010	m.0h7q7b	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+1456	what team doe _ play for 2011	m.06qjgc	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+1488	what _ new album call 2012	m.06mt91	SELECT DISTINCT ?x WHERE { ns:<e1> ns:music.artist.album ?x . }
+1577	what book did _ wrote in 1859	m.01lwx	SELECT DISTINCT ?x WHERE { ns:<e1> ns:book.author.works_written ?x . ?x ns:common.topic.notable_types ns:m.01xryvm . }
+1587	who is number 22 on _	m.04vn5	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.roster ?y . ?y ns:sports.sports_team_roster.player ?x . ?y ns:sports.sports_team_roster.number ?sk0 . FILTER (str(?sk0) = "22") }
+1604	who won the 2000 _ final	m.02_p0	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_award_type.winners ?y . ?y ns:sports.sports_award.award_winner ?x . ?y ns:sports.sports_award.season ns:<e1> . }
+1630	who is the current leader of _ 2010	m.0f8l9c	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.governmental_jurisdiction.governing_officials ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.basic_title ns:m.060c4 . }

@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8097ad9-0101-4547-9608-aa37e3819fa9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/crowdin/build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/crowdin/download.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/crowdin/outfile/source.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/crowdin/translate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webpage/public/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/django/webpage/public/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webpage/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django/webpage/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webpage/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/django/webpage/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webpage/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/django/webpage/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webpage/src/views/Answer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/django/webpage/src/views/Answer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webpage/src/views/Graph.vue" beforeDir="false" afterPath="$PROJECT_DIR$/django/webpage/src/views/Graph.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webpage/src/views/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/django/webpage/src/views/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webpage/src/views/Page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/django/webpage/src/views/Page.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webpage/src/views/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/django/webpage/src/views/Search.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +22,22 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_web$build.coverage" NAME="build Coverage Results" MODIFIED="1539256631258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/crowdin" />
     <SUITE FILE_PATH="coverage/python_web$spider.coverage" NAME="spider Coverage Results" MODIFIED="1534756850722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
-    <SUITE FILE_PATH="coverage/python_web$translate.coverage" NAME="translate Coverage Results" MODIFIED="1539257257433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/crowdin" />
+    <SUITE FILE_PATH="coverage/python_web$requests.coverage" NAME="requests Coverage Results" MODIFIED="1544202624266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/python_web$ans.coverage" NAME="ans Coverage Results" MODIFIED="1544024605962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/answer" />
+    <SUITE FILE_PATH="coverage/python_web$translate.coverage" NAME="translate Coverage Results" MODIFIED="1544024304780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/crowdin" />
+    <SUITE FILE_PATH="coverage/python_web$req.coverage" NAME="req Coverage Results" MODIFIED="1544202981645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/python_web$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1534693238527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/app" />
     <SUITE FILE_PATH="coverage/python_web$fbpage_spider.coverage" NAME="fbpage_spider Coverage Results" MODIFIED="1534935149981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v2/fbpage/fbpage/spiders" />
+    <SUITE FILE_PATH="coverage/python_web$ansppp.coverage" NAME="ansppp Coverage Results" MODIFIED="1544202586509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/answer" />
     <SUITE FILE_PATH="coverage/python_web$cmsRequest.coverage" NAME="cmsRequest Coverage Results" MODIFIED="1533555266946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1560856360">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -39,7 +48,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,9 +56,9 @@
           <entry key="cfg" value="1" />
           <entry key="csv" value="3" />
           <entry key="html" value="4" />
-          <entry key="json" value="71" />
+          <entry key="json" value="72" />
           <entry key="md" value="2" />
-          <entry key="py" value="27" />
+          <entry key="py" value="31" />
           <entry key="sh" value="3" />
           <entry key="txt" value="3" />
         </counts>
@@ -59,10 +68,10 @@
           <entry key="CSV" value="2" />
           <entry key="HTML" value="4" />
           <entry key="Ini" value="1" />
-          <entry key="JSON" value="71" />
+          <entry key="JSON" value="72" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="27" />
+          <entry key="Python" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -70,7 +79,7 @@
           <entry key="dummy" value="4" />
           <entry key="html" value="174" />
           <entry key="json" value="53" />
-          <entry key="py" value="3561" />
+          <entry key="py" value="3664" />
           <entry key="sh" value="27" />
         </counts>
       </usages-collector>
@@ -79,83 +88,13 @@
           <entry key="HTML" value="174" />
           <entry key="JSON" value="53" />
           <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="3561" />
+          <entry key="Python" value="3664" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/crowdin/download.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="118" selection-start-line="1" selection-start-column="118" selection-end-line="1" selection-end-column="118" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/crowdin/outmap/effort.map.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/crowdin/finalfile/fr/effort.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/crowdin/finalfile/it/friends.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/crowdin/finalfile/it/effort.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/crowdin/build.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1538106320000" expanded="true" signature="1123:1125" ph="..." />
-                <marker date="1538106320000" expanded="true" signature="1127:1129" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/crowdin/translate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/crowdin/outfile/source.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/crowdin/finalfile/de/effort.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -233,6 +172,10 @@
         <option value="$PROJECT_DIR$/data/crowdin/build.py" />
         <option value="$PROJECT_DIR$/data/crowdin/outfile/source.json" />
         <option value="$PROJECT_DIR$/data/crowdin/download.sh" />
+        <option value="$PROJECT_DIR$/data/answer/ansppp.py" />
+        <option value="$PROJECT_DIR$/data/requests.py" />
+        <option value="$PROJECT_DIR$/vote/vote.py" />
+        <option value="$PROJECT_DIR$/data/req.py" />
       </list>
     </option>
   </component>
@@ -242,16 +185,24 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/django/webpage/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/django/webpage/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1280" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,14 +218,12 @@
             <path>
               <item name="python_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_web" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="crowdin" type="462c0819:PsiDirectoryNode" />
+              <item name="vote" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,8 +257,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.translate">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.req">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python">
       <module name="python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,6 +272,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/app/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/answer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/answer/ans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ansppp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/answer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/answer/ansppp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,7 +346,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fbpage_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="req" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,12 +354,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v2/fbpage/fbpage/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v2/fbpage/fbpage/spiders/fbpage_spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/req.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -375,7 +368,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/requests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spider" type="PythonConfigurationType" factoryName="Python">
       <module name="python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -397,7 +412,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="translate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="translate" type="PythonConfigurationType" factoryName="Python">
       <module name="python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,17 +437,20 @@
     <list>
       <item itemvalue="Python.__init__" />
       <item itemvalue="Python.spider" />
-      <item itemvalue="Python.fbpage_spider" />
       <item itemvalue="Python.translate" />
       <item itemvalue="Python.build" />
+      <item itemvalue="Python.ans" />
+      <item itemvalue="Python.ansppp" />
+      <item itemvalue="Python.requests" />
+      <item itemvalue="Python.req" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.translate" />
+        <item itemvalue="Python.req" />
+        <item itemvalue="Python.requests" />
+        <item itemvalue="Python.ansppp" />
+        <item itemvalue="Python.ans" />
         <item itemvalue="Python.build" />
-        <item itemvalue="Python.fbpage_spider" />
-        <item itemvalue="Python.spider" />
-        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -450,15 +468,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2113951" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2180937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28316832" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28219178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,7 +484,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32970297" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32876712" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32970297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -535,34 +552,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spider/app/api/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v2/fbpage/urls.txt" />
-    <entry file="file://$PROJECT_DIR$/v2/fbpage/fbpage/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v2/fbpage/fbpage.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v2/fbpage/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v2/fbpage/url.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/v2/fbpage/fbpage/url.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -687,9 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/crowdin/finalfile/de/effort.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/crowdin/outmap/know.map.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -704,16 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/crowdin/outfile/source.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/crowdin/translate.py">
+    <entry file="file://$PROJECT_DIR$/data/crowdin/download.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="118" selection-start-line="1" selection-start-column="118" selection-end-line="1" selection-end-column="118" />
         </state>
       </provider>
     </entry>
@@ -735,22 +715,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/crowdin/build.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="270">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/crowdin/translate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/crowdin/outfile/source.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/crowdin/finalfile/de/effort.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/answer/ans.py" />
+    <entry file="file://$PROJECT_DIR$/data/answer/WebQSP.test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/answer/ansppp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1538106320000" expanded="true" signature="1123:1125" ph="..." />
-            <marker date="1538106320000" expanded="true" signature="1127:1129" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/crowdin/download.sh">
+    <entry file="file://$PROJECT_DIR$/data/req.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="118" selection-start-line="1" selection-start-column="118" selection-end-line="1" selection-end-column="118" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vote/vote.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="65" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

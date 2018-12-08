@@ -1,16 +1,19 @@
 <template>
     <el-row>
         <el-col :span="24">
-            <el-card class="box-card">
-                <div style="margin-top: 15px; max-width: 550px;">
-                    <el-input placeholder="请输入内容" v-model="search" class="input-with-select">
-                        <el-select v-model="select" slot="prepend" placeholder="请选择">
+            <el-card class="box-card main-wrapper" style="text-align: center;">
+                <h2>面向知识库的英文问答系统</h2>
+                <div style="margin-top: 15px; max-width: 550px; margin: 15px auto">
+                    <el-input placeholder="请输入内容" v-model="search" class="input-with-select" >
+                        <el-select v-model="select" slot="prepend" placeholder="请选择" style="width: 120px;">
                             <el-option label="实体识别" value="1"></el-option>
                             <el-option label="答案搜索" value="2"></el-option>
+                            <el-option label="实体搜索" value="3"></el-option>
                         </el-select>
-                        <el-button slot="append" icon="el-icon-search"></el-button>
+                        <el-button slot="append" icon="el-icon-search" @click="onSubmit"></el-button>
                     </el-input>
                 </div>
+                <img src="../assets/img_2.png" style="width:550px; margin: 30px auto 0 ;">
             </el-card>
         </el-col>
     </el-row>
@@ -18,7 +21,6 @@
 
 <script>
     // @ is an alias to /src
-    
     export default {
         name: 'search',
         data: function() {
@@ -27,15 +29,26 @@
                 select: '1'
             }
         },
-        method: {
+        methods: {
             onSubmit() {
-                console.log(1)
+                if(!this.search) {
+                    this.$message({
+                        message: '请填写搜索信息',
+                        type: 'warning'
+                    });
+                    return false
+                }
+                console.log(this.$axios)
+    
+                this.$router.push({ path: '/page/answer', query:{ search: this.search, type: this.select }})
+                
+                console.log(`${this.select}, ${this.search}`)
             }
         }
     }
 </script>
 
-<style>
+<style scoped>
   .el-card {
       min-height: 550px;
   }

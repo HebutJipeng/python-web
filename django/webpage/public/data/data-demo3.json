@@ -1,0 +1,261 @@
+{
+    "nodes": [
+        {
+            "id": "0",
+            "name": "Knicks",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 60,
+            "attributes": {
+                "modularity_class": 0
+            }
+        },
+        {
+            "id": "1",
+            "name": "1973 NBA Finals",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            },
+            "symbolSize": 50,
+            "attributes": {
+                "modularity_class": 1
+            }
+        },
+        {
+            "id": "2",
+            "name": "1973-05-01",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 1
+            }
+        },
+        {
+            "id": "3",
+            "name": "1970 NBA Finals",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 40,
+            "attributes": {
+                "modularity_class": 2
+            }
+        },
+        {
+            "id": "4",
+            "name": "1970-04-24",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 3
+            }
+        },
+        {
+            "id": "5",
+            "name": "Power forward",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 4
+            }
+        },
+        {
+            "id": "6",
+            "name": "m.0_qw_4r",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 5
+            }
+        },
+        {
+            "id": "7",
+            "name": "New York City",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 6
+            }
+        },
+        {
+            "id": "8",
+            "name": "1946",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 7
+            }
+        },
+        {
+            "id": "9",
+            "name": "Basketball",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 8
+            }
+        },
+        {
+            "id": "10",
+            "name": "Madison Square Garden",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 9
+            }
+        },
+        {
+            "id": "11",
+            "name": "sports.sports_team",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 10
+            }
+        }
+    ],
+    "links": [
+        {
+            "id": "sports.sports_team.championships",
+            "name": null,
+            "source": "0",
+            "target": "1",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "time.event.start_date",
+            "name": null,
+            "source": "1",
+            "target": "2",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "sports.sports_team.championships",
+            "name": null,
+            "source": "0",
+            "target": "3",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "time.event.start_date",
+            "name": null,
+            "source": "3",
+            "target": "4",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "sports.sports_team.roster",
+            "name": null,
+            "source": "0",
+            "target": "5",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "sports.sports_team.roster",
+            "name": null,
+            "source": "0",
+            "target": "6",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "sports.sports_team.location",
+            "name": null,
+            "source": "0",
+            "target": "7",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "sports.sports_team.founded",
+            "name": null,
+            "source": "0",
+            "target": "8",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "sports.sports_team.sport",
+            "name": null,
+            "source": "0",
+            "target": "9",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "sports.sports_team.venue",
+            "name": null,
+            "source": "0",
+            "target": "10",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "type.object.type",
+            "name": null,
+            "source": "0",
+            "target": "11",
+            "lineStyle": {
+                "normal": {}
+            }
+        }
+    ]
+}

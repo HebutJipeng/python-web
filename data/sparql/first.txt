@@ -1,0 +1,60 @@
+30	who did _ run against for the second term	m.09b6zr	SELECT DISTINCT ?x WHERE { ns:m.04qwhs ns:government.election.campaigns ?y . ?y ns:government.election_campaign.candidate ?x . }
+48	who did _ first play for	m.0443c	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . ?y ns:sports.sports_team_roster.from ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+55	who was the first dictat of the _	m.05vz3zq	SELECT DISTINCT ?x WHERE { ns:<e1> ns:government.governmental_jurisdiction.governing_officials ?y . ?y ns:government.government_position_held.office_holder ?x . ?y ns:government.government_position_held.from ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+216	what year was the first _ held	m.01bk3n	SELECT DISTINCT ?x WHERE { ns:<e1> ns:time.recurring_event.date_of_first_occurance ?x . }
+229	which of the follow doe _ export the most	m.0chghy	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.statistical_region.major_exports ?y . ?y ns:location.imports_exports_by_industry.industry ?x . }
+319	what was the first book _ wrote	m.01v9724	SELECT DISTINCT ?x WHERE { ns:<e1> ns:book.author.works_written ?x . ?x ns:common.topic.notable_types ns:m.01xryvm . ?x ns:book.written_work.copyright_date ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+332	when was the last time the _ were in the _	m.0j6tr m.0cc8tt9	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:sports.sports_championship_event.championship ns:<e2> . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+348	what was _ first team	m.01jz6d	SELECT DISTINCT ?x WHERE { ns:<e1> ns:basketball.basketball_player.player_statistics ?y . ?y ns:basketball.basketball_player_stats.team ?x . }
+349	what was _ first team	m.01jz6d	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.drafted_athlete.drafted ?y . ?y ns:sports.sports_league_draft_pick.team ?x . }
+354	who was the first presid of the _	m.0ysy	SELECT DISTINCT ?x WHERE { ns:<e1> ns:organization.organization.founders ?x . }
+366	when the last time the _ won the _	m.05tfm m.01xljv1	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:sports.sports_championship_event.championship ns:<e2> . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+442	what languag do most _ speak	m.0chghy	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.languages_spoken ?x . }
+453	where was the first _ fought	m.018w0j	SELECT DISTINCT ?x WHERE { ns:<e1> ns:time.event.locations ?x . }
+457	what was _ most known for	m.0b22w	SELECT DISTINCT ?x WHERE { ns:<e1> ns:common.topic.notable_for ?y . ?y ns:common.notable_for.object ?x . }
+464	what is the second biggest state in the _	m.09c7w0	SELECT DISTINCT ?x WHERE { ns:<e1> ns:base.aareas.schema.administrative_area.administrative_children ?x . ?x ns:common.topic.notable_types ns:m.0kpys4 . ?x ns:location.location.area ?y . } ORDER BY DESC(xsd:float(?y)) LIMIT 1 OFFSET 1
+476	what languag do most _ speak	m.03rjj	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.official_language ?x . }
+511	when is the last time the _ won a _	m.01ct6 m.06x5s	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:sports.sports_championship_event.championship ns:<e2> . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+523	when did _ last win the _	m.04ltf m.012dbw	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:sports.sports_championship_event.championship ns:<e2> . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+597	what was the first languag spoken in _	m.06mkj	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.official_language ?x . }
+600	what languag do most peopl speak in _	m.0jdd	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.languages_spoken ?x . }
+601	what languag do most peopl speak in _	m.0jdd	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.official_language ?x . }
+609	where is _ spoken most	m.064_8sq	SELECT DISTINCT ?x WHERE { ns:<e1> ns:language.human_language.countries_spoken_in ?x . }
+706	what war did the _ lose the most soldier	m.09c7w0	SELECT DISTINCT ?x WHERE { ns:<e1> ns:military.military_combatant.casualties ?y . ?y ns:military.casualties.military_conflict ?x . ?y ns:military.casualties.lower_estimate ?sk0 . } ORDER BY DESC(xsd:float(?sk0)) LIMIT 1
+728	when is the last time the _ won the _	m.0713r m.0fjp3	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:sports.sports_championship_event.championship ns:<e2> . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+777	who was the leader of the first _	m.02189	SELECT DISTINCT ?x WHERE { ns:<e1> ns:organization.organization.founders ?x . }
+781	when did the _ last win the championship	m.0jm8l	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:time.event.start_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+793	what year did the _ win their first nba championship	m.0jmj7	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:time.event.start_date ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+823	what was _ first album	m.0ycfj	SELECT DISTINCT ?x WHERE { ns:<e1> ns:music.artist.album ?x . ?x ns:music.album.release_date ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+831	what was _ first album	m.01wv9xn	SELECT DISTINCT ?x WHERE { ns:<e1> ns:music.artist.album ?x . ?x ns:music.album.release_date ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+844	when is the last time the _ won the _	m.0289q m.06x5s	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:sports.sports_championship_event.championship ns:<e2> . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+869	when was the last time the _ won the _	m.02896 m.06x5s	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:sports.sports_championship_event.championship ns:<e2> . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+872	when was the last time _ won the championship	m.0jm3v	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:time.event.start_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+1019	who is _ first husband	m.010hn	SELECT DISTINCT ?x WHERE { ns:<e1> ns:people.person.spouse_s ?y . ?y ns:people.marriage.spouse ?x . ?y ns:people.marriage.from ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+1088	who did _ first play for	m.012xdf	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.drafted_athlete.drafted ?y . ?y ns:sports.sports_league_draft_pick.team ?x . }
+1175	what is the most popul state in _	m.09c7w0	SELECT DISTINCT ?x WHERE { ns:<e1> ns:base.aareas.schema.administrative_area.administrative_children ?x . ?x ns:topic_server.population_number ?sk0 . } ORDER BY DESC(xsd:float(?sk0)) LIMIT 1
+1248	when was the last time the _ went to the _	m.0j2zj m.0cc8tt9	SELECT DISTINCT ?x WHERE { ?x ns:sports.sports_championship_event.championship ns:<e2> . { ?x ns:sports.sports_championship_event.champion ns:<e1> . } UNION { ?x ns:sports.sports_championship_event.runner_up ns:<e1> . } ?x ns:time.event.start_date ?st . } ORDER BY DESC(xsd:datetime(?st)) LIMIT 1
+1342	when is the last time the _ won a _	m.05tfm m.06x5s	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:sports.sports_championship_event.championship ns:<e2> . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+1354	where was the first _ headquart locat	m.04sv4	SELECT DISTINCT ?x WHERE { ns:<e1> ns:organization.organization.headquarters ?y . ?y ns:location.mailing_address.citytown ?x . }
+1373	when the last time the _ won the _	m.05g76 m.0fjp3	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:sports.sports_championship_event.championship ns:<e2> . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+1393	who did _ play for last year	m.05bz_j	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . }
+1402	what are the most popular religion in _	m.03spz	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.statistical_region.religions ?y . ?y ns:location.religion_percentage.religion ?x . ?y ns:location.religion_percentage.percentage ?sk0 . } ORDER BY DESC(xsd:float(?sk0)) LIMIT 1
+1432	what is the most common languag spoken in _	m.0jgd	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.official_language ?x . }
+1447	what languag is most common spoken in _	m.0154j	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.official_language ?x . }
+1464	what are some of _ most famous invent	m.04lg6	SELECT DISTINCT ?x WHERE { ns:<e1> ns:law.inventor.inventions ?x . }
+1489	when was the last time the _ won the _	m.01d6g m.0fjp3	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+1491	what is the most common languag in _	m.05b4w	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.country.official_language ?x . }
+1510	what was _ most famous for	m.025_0c	SELECT DISTINCT ?x WHERE { ns:<e1> ns:base.honouriam.dishonoured_person.dishonor_bestowed ?x . }
+1514	when was the last time the _ won a playoff seri	m.0jnq8	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+1529	what countri speak _ as a first languag	m.064_8sq	SELECT DISTINCT ?x WHERE { ns:<e1> ns:language.human_language.countries_spoken_in ?x . ?x ns:location.country.official_language ns:<e1> . }
+1531	what was the name of _ first wife	m.03p77	SELECT DISTINCT ?x WHERE { ns:<e1> ns:people.person.spouse_s ?y . ?y ns:people.marriage.spouse ?x . ?y ns:people.marriage.from ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+1533	what is presid _ first name	m.06c97	SELECT DISTINCT ?x WHERE { ns:<e1> ns:type.object.name ?x . }
+1536	what year did _ win their first championship	m.0jmfb	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:time.event.start_date ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+1537	where do most of the peopl live in _	m.06bnz	SELECT DISTINCT ?x WHERE { ns:<e1> ns:location.location.contains ?x . ?x ns:topic_server.population_number ?sk0 . } ORDER BY DESC(xsd:float(?sk0)) LIMIT 1
+1554	where did the second battl of _ occur	m.02q3m7	SELECT DISTINCT ?x WHERE { ns:<e1> ns:time.event.locations ?x . }
+1600	what year was first _	m.0fjp3	SELECT DISTINCT ?x WHERE { ns:<e1> ns:time.recurring_event.instances ?x . ?x ns:time.event.start_date ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+1610	what was _ first team	m.0839s	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.pro_athlete.teams ?y . ?y ns:sports.sports_team_roster.team ?x . ?y ns:sports.sports_team_roster.from ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+1690	who play _ in the first movi	m.0f2y0	SELECT DISTINCT ?x WHERE { ns:<e1> ns:film.film_character.portrayed_in_films ?y . ?y ns:film.performance.actor ?x . ?y ns:film.performance.film ?z . ?z film.film.initial_release_date ?sk0 . } ORDER BY xsd:datetime(?sk0) LIMIT 1
+1721	when was the last time the _ won a championship	m.04mjl	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+1741	when was the last time the _ win the _	m.0j6tr m.0hn79	SELECT DISTINCT ?x WHERE { ns:<e1> ns:sports.sports_team.championships ?x . ?x ns:sports.sports_championship_event.championship ns:<e2> . ?x ns:time.event.end_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1
+1756	what was the last movi _ was in	m.06mr6	SELECT DISTINCT ?x WHERE { ns:<e1> ns:film.actor.film ?y . ?y ns:film.performance.film ?x . ?x ns:film.film.initial_release_date ?sk0 . } ORDER BY DESC(xsd:datetime(?sk0)) LIMIT 1

@@ -144,14 +144,14 @@
             }
         },
         {
-            "id": "11",
-            "name": "Lagos",
+            "id": "20",
+            "name": "representative democracy",
             "itemStyle": {
                 "normal": {
                     "color": "rgb(236,81,72)"
                 }
             },
-            "symbolSize": 100,
+            "symbolSize": 20,
             "attributes": {
                 "modularity_class": 1
             }
@@ -197,13 +197,13 @@
         },
         {
             "id": "15",
-            "name": "Gervais",
+            "name": "Dr. Dre",
             "itemStyle": {
                 "normal": {
                     "color": "rgb(236,81,72)"
                 }
             },
-            "symbolSize": 4,
+            "symbolSize": 35,
             "attributes": {
                 "modularity_class": 1
             }
@@ -261,7 +261,7 @@
             }
         },
         {
-            "id": "20",
+            "id": "60",
             "name": "Favourite",
             "itemStyle": {
                 "normal": {
@@ -307,7 +307,7 @@
                     "color": "rgb(236,81,72)"
                 }
             },
-            "symbolSize": 42.4,
+            "symbolSize": 20,
             "attributes": {
                 "modularity_class": 2
             }
@@ -333,7 +333,7 @@
                     "color": "rgb(236,81,72)"
                 }
             },
-            "symbolSize": 45.142853,
+            "symbolSize": 25.142853,
             "attributes": {
                 "modularity_class": 7
             }
@@ -353,13 +353,13 @@
         },
         {
             "id": "27",
-            "name": "Nigerian National Museum",
+            "name": "Live My Life (Party Rock Remix)",
             "itemStyle": {
                 "normal": {
                     "color": "rgb(236,81,72)"
                 }
             },
-            "symbolSize": 47.88571,
+            "symbolSize": 60,
             "attributes": {
                 "modularity_class": 7
             }
@@ -560,7 +560,7 @@
             }
         },
         {
-            "id": "43",
+            "id": "61",
             "name": "Woman2",
             "itemStyle": {
                 "normal": {
@@ -626,7 +626,7 @@
         },
         {
             "id": "48",
-            "name": "Lagos State University",
+            "name": "film.producer",
             "itemStyle": {
                 "normal": {
                     "color": "rgb(236,81,72)"
@@ -717,13 +717,13 @@
         },
         {
             "id": "55",
-            "name": "2006 Atlas Creek pipeline explosion",
+            "name": "As Long as You Love Me",
             "itemStyle": {
                 "normal": {
                     "color": "rgb(236,81,72)"
                 }
             },
-            "symbolSize": 53.37143,
+            "symbolSize": 60,
             "attributes": {
                 "modularity_class": 6
             }
@@ -762,7 +762,7 @@
                     "color": "rgb(236,81,72)"
                 }
             },
-            "symbolSize": 42.4,
+            "symbolSize": 20,
             "attributes": {
                 "modularity_class": 8
             }
@@ -781,7 +781,7 @@
             }
         },
         {
-            "id": "60",
+            "id": "43",
             "name": "Prouvaire",
             "itemStyle": {
                 "normal": {
@@ -794,14 +794,14 @@
             }
         },
         {
-            "id": "61",
-            "name": "Feuilly",
+            "id": "11",
+            "name": "Justin Bibber",
             "itemStyle": {
                 "normal": {
                     "color": "rgb(236,81,72)"
                 }
             },
-            "symbolSize": 31.428574,
+            "symbolSize": 40.428574,
             "attributes": {
                 "modularity_class": 8
             }
@@ -938,13 +938,13 @@
         },
         {
             "id": "72",
-            "name": "Toussaint",
+            "name": "Miley Cyrus",
             "itemStyle": {
                 "normal": {
                     "color": "rgb(236,81,72)"
                 }
             },
-            "symbolSize": 9.485714,
+            "symbolSize": 40,
             "attributes": {
                 "modularity_class": 1
             }
@@ -1220,10 +1220,10 @@
             }
         },
         {
-            "id": "131",
-            "name": null,
-            "source": "55",
-            "target": "11",
+            "id": "music.artist.album",
+            "name": "hello",
+            "source": "11",
+            "target": "55",
             "lineStyle": {
                 "normal": {}
             }

@@ -1,0 +1,327 @@
+{
+    "nodes": [
+        {
+            "id": "0",
+            "name": "justin bieber",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 60,
+            "attributes": {
+                "modularity_class": 0
+            }
+        },
+        {
+            "id": "1",
+            "name": "jaxon bieber",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            },
+            "symbolSize": 50,
+            "attributes": {
+                "modularity_class": 1
+            }
+        },
+        {
+            "id": "2",
+            "name": "male",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 1
+            }
+        },
+        {
+            "id": "3",
+            "name": "jazmyn Bieber",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 40,
+            "attributes": {
+                "modularity_class": 2
+            }
+        },
+        {
+            "id": "4",
+            "name": "female",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 3
+            }
+        },
+        {
+            "id": "5",
+            "name": "London",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 4
+            }
+        },
+        {
+            "id": "6",
+            "name": "Musician",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 5
+            }
+        },
+        {
+            "id": "7",
+            "name": "Dancer",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 6
+            }
+        },
+        {
+            "id": "8",
+            "name": "Singer-songwriter",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 7
+            }
+        },
+        {
+            "id": "9",
+            "name": "Canada",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 8
+            }
+        },
+        {
+            "id": "10",
+            "name": "1.7",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 9
+            }
+        },
+        {
+            "id": "11",
+            "name": "1994-03-01",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 10
+            }
+        },
+        {
+            "id": "12",
+            "name": "Actor",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 11
+            }
+        },
+        {
+            "id": "13",
+            "name": "Teen pop",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 12
+            }
+        },
+        {
+            "id": "14",
+            "name": "Thought Of You",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 25,
+            "attributes": {
+                "modularity_class": 13
+            }
+        }
+    ],
+    "links": [
+        {
+            "id": "people.person.sibling_s",
+            "name": null,
+            "source": "0",
+            "target": "1",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.gender",
+            "name": null,
+            "source": "1",
+            "target": "2",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.sibling_s_2",
+            "name": null,
+            "source": "0",
+            "target": "3",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.gender",
+            "name": null,
+            "source": "3",
+            "target": "4",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.place_of_birth",
+            "name": null,
+            "source": "0",
+            "target": "5",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.profession",
+            "name": null,
+            "source": "0",
+            "target": "6",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.profession",
+            "name": null,
+            "source": "0",
+            "target": "7",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.profession",
+            "name": null,
+            "source": "0",
+            "target": "8",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.nationality",
+            "name": null,
+            "source": "0",
+            "target": "9",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.height_meters",
+            "name": null,
+            "source": "0",
+            "target": "10",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.date_of_birth",
+            "name": null,
+            "source": "0",
+            "target": "11",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "people.person.profession",
+            "name": null,
+            "source": "0",
+            "target": "12",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "music.artist.genre",
+            "name": null,
+            "source": "0",
+            "target": "13",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "music.composer.compositions",
+            "name": null,
+            "source": "0",
+            "target": "14",
+            "lineStyle": {
+                "normal": {}
+            }
+        }
+    ]
+}
