@@ -1,39 +1,53 @@
 export function formatMap(data) {
     // const entity = data.triple.entity
     // const answer = data.triple.answer
-    let link = data.triple.link
-    const ans = data.hasOwnProperty('answer')
-    const nodes = formatNodes(link, ans)
-    const links = formatLinks(link, nodes)
+    const nodes = formatNodes(data.ans, data.other)
+    const links = formatLinks(data, nodes)
     return {
         nodes: nodes, 
         links: links
     }
 }
 
-function formatNodes(link, ans=false) {
+function formatNodes(ans, other) {
     let s = new Set()
+    let ss = new Set()
     let nodes = []
-    link.forEach(item => {
-        const arr = item.split(',')
-        s.add(arr[0])
-        s.add(arr[2])
+    let step = 0
+    ans.forEach(item => {
+        s.add(item[0])
+        s.add(item[2])
     })
-    Array.from(s).forEach((se, key) => {
+    const sarr = Array.from(s)
+    sarr.forEach((se, key) => {
         if (key == 0) {
-           nodes.push(nodeTemplate(key, se, 60)) 
-        } else if(ans && key == 1) {
-           nodes.push(nodeTemplate(key, se, 50)) 
+            nodes.push(nodeTemplate(key, se, 80)) 
         } else {
-           nodes.push(nodeTemplate(key, se, 25)) 
+            nodes.push(nodeTemplate(key, se, 50))
+        }
+        step = key
+    })
+    if (sarr.length == 0) {
+       step = -1 
+    }
+
+    other.forEach(item => {
+        ss.add(item[0])
+        ss.add(item[2])
+    })
+    let idx = 0
+    Array.from(ss).forEach((se) => {
+        if (sarr.indexOf(se)== -1) {
+            nodes.push(nodeTemplate(idx, se, 25, step+1))
+            idx++
         }
     })
     return nodes
 }
 
-function nodeTemplate(idx, name, size) {
+function nodeTemplate(idx, name, size, step = 0) {
    return {
-        "id": idx,
+        "id": idx + step,
         "name": name,
        "itemStyle": {
            "normal": {
@@ -42,23 +56,32 @@ function nodeTemplate(idx, name, size) {
        },
        "symbolSize": size,
        "attributes": {
-           "modularity_class": idx
+           "modularity_class": idx + step
        }
    } 
 }
 
-function formatLinks(link) {
+function formatLinks(data) {
     let s = new Set()
+    const ans = data.ans
+    const other = data.other
+
     let links = []
-    link.forEach(item => {
-        const arr = item.split(',')
-        s.add(arr[0])
-        s.add(arr[2])
-    }) 
+    ans.forEach(item => {
+        s.add(item[0])
+        s.add(item[2])
+    })
+    other.forEach(item => {
+        s.add(item[0])
+        s.add(item[2])
+    })
     const arrset = Array.from(s)
-    link.forEach(item => {
-        const arr = item.split(',')
-        links.push(linkTemplate(arr[1], arrset.indexOf(arr[0]), arrset.indexOf(arr[2])))
+    
+    ans.forEach(item => {
+        links.push(linkTemplate(item[1], arrset.indexOf(item[0]), arrset.indexOf(item[2])))
+    })
+    other.forEach(item => {
+        links.push(linkTemplate(item[1], arrset.indexOf(item[0]), arrset.indexOf(item[2])))
     })
     return links
 }

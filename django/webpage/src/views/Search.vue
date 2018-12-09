@@ -10,7 +10,7 @@
                             <el-option label="答案搜索" value="2"></el-option>
                             <el-option label="实体搜索" value="3"></el-option>
                         </el-select>
-                        <el-button slot="append" icon="el-icon-search" @click="onSubmit"></el-button>
+                        <el-button slot="append" icon="el-icon-search" @click="onSubmit" :loading="flag"></el-button>
                     </el-input>
                 </div>
                 <img src="../assets/img_2.png" style="width:550px; margin: 30px auto 0 ;">
@@ -25,8 +25,11 @@
         name: 'search',
         data: function() {
             return {
+                baseURL: '',
+                version: 'v1',
                 search: '',
-                select: '1'
+                select: '1',
+                flag: false
             }
         },
         methods: {
@@ -38,12 +41,29 @@
                     });
                     return false
                 }
-                console.log(this.$axios)
-    
-                this.$router.push({ path: '/page/answer', query:{ search: this.search, type: this.select }})
-                
-                console.log(`${this.select}, ${this.search}`)
+                switch(this.select) {
+                    case '1':
+                        this.$router.push({ path: '/page/answer', query:{ search: this.search, type: this.select }})
+                        break;
+                    case '2':
+                        this.flag = true
+                        this.$axios.post(`${this.baseURL}/api/AnswerSearchFirst`, {
+                            question: this.search,
+                        })
+                        .then(res => {
+                            console.log(res)
+                            this.flag = false
+                            sessionStorage.answerStore = JSON.stringify(res.data)
+                            this.$router.push({ path: '/page/graph', query: { hasRes: 'reco' }})
+                        })
+                        break;
+                    default:
+                        this.$router.push({ path: '/page/graph', query: { search: this.search, hasRes: 'sear' }})
+                }
             }
+        },
+        mounted() {
+            this.baseURL = (sessionStorage.model == 'simple'? this.baseSimple: this.baseWeb)
         }
     }
 </script>

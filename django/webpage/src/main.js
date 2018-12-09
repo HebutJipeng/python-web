@@ -10,7 +10,8 @@ import './plugins/element.js'
 import './assets/css/index.css'
 import { VueSpinners } from '@saeris/vue-spinners'
 
-axios.defaults.baseURL = 'https://easy-mock.com/mock/5c09164ee1c4a705638a80bf/ke'
+Vue.prototype.baseWeb = 'http://0.0.0.0:5001'
+Vue.prototype.baseSimple = 'http://0.0.0.0:5000'
 
 Vue.config.productionTip = false
 Vue.prototype.$echarts = echarts 

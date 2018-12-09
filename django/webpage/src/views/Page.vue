@@ -5,7 +5,7 @@
         <router-link to="/">
           <h1><i class="el-icon-date"></i> 问答系统</h1>
         </router-link>
-        <span class="nav">当前模型: {{ model }}</span>
+        <span class="nav">当前数据集: {{ model }}</span>
       </el-header>
       <el-container>
         <el-aside width="200px">
